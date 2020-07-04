@@ -1,0 +1,56 @@
+    body {
+        background: url("images/bg2.jpg");
+        background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        min-height: auto;
+    }
+    
+    .keys {
+        display: flex;
+        flex: 1;
+        color: aliceblue;
+        justify-content: center;
+        align-items: center;
+        /* min-height: 100vh; */
+        justify-content: space-around;
+        width: auto;
+    }
+    
+    .key {
+        border: .4rem solid black;
+        text-align: center;
+        padding: .5rem 4rem;
+        transition: 1s;
+        margin: 1rem;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+        background: rgba(0, 0, 0, 0);
+        text-shadow: 2px 2px 5px black;
+    }
+    
+    kbd {
+        display: block;
+        font-size: 4rem;
+    }
+    
+    .flexcontain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+    }
+    
+    .sound {
+        font-size: 1.5rem;
+        color: yellow;
+    }
+    
+    .playing {
+        transform: scale(1.1);
+        border-color: #ffc600;
+        box-shadow: 0 0 1rem #ffc600;
+    }
